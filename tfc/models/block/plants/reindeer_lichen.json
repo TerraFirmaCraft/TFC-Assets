@@ -26,8 +26,7 @@
             16,
             0
           ],
-          "texture": "#layer0",
-          "tintindex": 0
+          "texture": "#layer0"
         },
         "up": {
           "uv": [
@@ -36,8 +35,7 @@
             16,
             16
           ],
-          "texture": "#layer0",
-          "tintindex": 0
+          "texture": "#layer0"
         }
       }
     },
@@ -60,8 +58,7 @@
             16,
             0
           ],
-          "texture": "#layer1",
-          "tintindex": 1
+          "texture": "#layer1"
         },
         "up": {
           "uv": [
@@ -70,8 +67,7 @@
             16,
             16
           ],
-          "texture": "#layer1",
-          "tintindex": 1
+          "texture": "#layer1"
         }
       }
     },
@@ -94,8 +90,7 @@
             16,
             0
           ],
-          "texture": "#layer2",
-          "tintindex": 2
+          "texture": "#layer2"
         },
         "up": {
           "uv": [
@@ -104,8 +99,7 @@
             16,
             16
           ],
-          "texture": "#layer2",
-          "tintindex": 2
+          "texture": "#layer2"
         }
       }
     }
