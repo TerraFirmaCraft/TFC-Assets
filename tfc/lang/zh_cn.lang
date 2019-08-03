@@ -183,11 +183,13 @@ tfc.types.metal.high_carbon_black_steel=高碳黑钢
 tfc.types.metal.high_carbon_blue_steel=高碳蓝钢
 tfc.types.metal.high_carbon_red_steel=高碳红钢
 
-tfc.enum.tier.tier_i=坑窑
-tfc.enum.tier.tier_ii=蜂巢窑
-tfc.enum.tier.tier_iii=锻铁炉
-tfc.enum.tier.tier_iv=高炉
-tfc.enum.tier.tier_v=坩埚
+tfc.enum.tier.tier_0=第零级
+tfc.enum.tier.tier_i=第一级
+tfc.enum.tier.tier_ii=第二级
+tfc.enum.tier.tier_iii=第三级
+tfc.enum.tier.tier_iv=第四级
+tfc.enum.tier.tier_v=第五级
+tfc.enum.tier.tier_vi=第六级
 
 ## Size
 tfc.enum.size.tiny=极小
