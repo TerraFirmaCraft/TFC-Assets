@@ -70,8 +70,9 @@ tfc.tooltip.animal.milk.lowfamiliarity=这头牛和你的亲密度太低，不�
 tfc.tooltip.animal.milk.empty=这头牛今天挤过奶了。
 
 ## Command Tooltips / Messages
-tfc.tooltip.set_month_length=将月长度设置为 %d 天
-tfc.tooltip.time_command_complete=成功！
+tfc.tooltip.set_month_length=将月长度设置为 %d 天。
+tfc.tooltip.time_command_set_player_time=将玩家时间设置为 %d 。
+tfc.tooltip.time_command_set_calendar_time=将日历时间设置为 %s 。
 tfc.tooltip.time_command_disabled=此命令已被群峦传说禁用。作为替代，请使用 /timetfc ！
 
 ## Prospecting Result Messages
