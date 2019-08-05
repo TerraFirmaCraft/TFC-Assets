@@ -125,6 +125,9 @@ config.tfc.client.toolip=Client side only.
 config.tfc.client.makeWorldTypeClassicDefault=Default to tfc_classic world gen
 config.tfc.client.makeWorldTypeClassicDefault.tooltip=Only works in Single Player
 
+config.tfc.client.showExtraHealthWithOverlays=Show Extra Health as Overlay
+config.tfc.client.showExtraHealthWithOverlays.tooltip=Show extra player health using additional health bar overlays? (for Absorption or increased max health)
+
 ## Config.World
 config.tfc.world=World Gen Settings
 config.tfc.world.tooltip=Various aspects of world generation
