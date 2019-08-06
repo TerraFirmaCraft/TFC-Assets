@@ -112,18 +112,109 @@ createWorld.customize.custom.riverRavineRarity=溪流沟壑稀有度
 config.tfc=群峦传说
 config.tfc.tooltip=群峦传说设置
 
-## Config.General
+## General Config
 config.tfc.general=通用设置
 config.tfc.general.toolip=适用于客户端和服务端。
 
-config.tfc.general.debug=启用调试特性
-config.tfc.general.debug.tooltip=各种调试选项。使用调试魔杖单独激活它们。
+config.tfc.general.debug=调试模式
+config.tfc.general.debug.tooltip=各种调试选项。激活一些额外的调试魔杖特性。启用额外的物品提示。
 
-config.tfc.general.debugWorldGen=调试世界生成。[危险]
-config.tfc.general.debugWorldGen.tooltip=你的世界将会受到影响！不要在你正常的世界里使用！
+config.tfc.general.removeVanillaRecipes=移除原版合成配方
+config.tfc.general.removeVanillaRecipes.tooltip=启用/禁用原版配方移除。false = 保留所有原版配方
 
-config.tfc.general.yearLength=年长（按日计算）
-config.tfc.general.yearLength.tooltip=必须设置为12的倍数。
+config.tfc.general.leafStickDropChance=树叶掉落木棍几率
+config.tfc.general.leafStickDropChance.tooltip=树叶正常掉落木棍的几率
+
+config.tfc.general.leafStickDropChanceBonus=树叶额外掉落木棍几率
+config.tfc.general.leafStickDropChanceBonus.tooltip=树叶额外掉落木棍的几率
+
+config.tfc.general.leafStickDropChanceBonusClasses=工具类树叶掉落木棍几率
+config.tfc.general.leafStickDropChanceBonusClasses.tooltip=使用对应工具树叶额外掉落木棍的几率
+
+config.tfc.general.temperatureModifierGlobal=全局温度修改
+config.tfc.general.temperatureModifierGlobal.tooltip=修改物品获得和失去热量的速度。较小的值 = 较慢的温度变化。
+
+config.tfc.general.temperatureModifierHeating=加热温度修改
+config.tfc.general.temperatureModifierHeating.tooltip=修改设施（如木炭炉，篝火）获得和失去热量的速度。较小的值 = 较慢的温度变化。
+
+config.tfc.general.foodDecayModifier=食物腐烂修改
+config.tfc.general.foodDecayModifier.tooltip=食物腐烂的速度。较大的值 = 较快的腐烂速度。设置为 0 永不腐烂。
+
+config.tfc.general.pitKilnTime=坑窑时间
+config.tfc.general.pitKilnTime.tooltip=坑窑燃烧完毕所需要的刻数（1000 = 游戏内 1 小时 = 50 秒），默认为 8 小时。
+
+config.tfc.general.torchTime=火炬烧尽时间
+config.tfc.general.torchTime.tooltip=火炬燃烧殆尽所需要的刻数（1000 = 游戏内 1 小时 = 50 秒），默认为 72 小时。设置为 -1 永不烧尽。
+
+config.tfc.general.bloomeryTime=炼铁炉时间
+config.tfc.general.bloomeryTime.tooltip=炼铁炉完成所需要的刻数（1000 = 游戏内 1 小时 = 50 秒），默认为 15 小时。
+
+config.tfc.general.plantGrowthRate=植物生长比率
+config.tfc.general.plantGrowthRate.tooltip=每次更新植物的百分比生长机会。较小的值 = 较慢。
+
+config.tfc.general.fireStarterChance=起火器成功机率
+config.tfc.general.fireStarterChance.tooltip=起火器成功的机率
+
+config.tfc.general.playerNutritionDecayModifier=玩家营养衰退修改
+config.tfc.general.playerNutritionDecayModifier.tooltip=修改玩家营养值衰退的速度
+
+config.tfc.general.playerMinHealthModifier=玩家最低生命值修改
+config.tfc.general.playerMinHealthModifier.tooltip=在低营养下玩家能保持的最低生命值。
+
+config.tfc.general.playerMaxHealthModifier=玩家最高生命值修改
+config.tfc.general.playerMaxHealthModifier.tooltip=在高营养下玩家能获得的最高生命值。
+
+config.tfc.general.playerThirstModifier=玩家口渴值衰退修改
+config.tfc.general.playerThirstModifier.tooltip=修改玩家口渴的速度。
+
+config.tfc.general.playerNaturalRegenerationModifier=玩家自然恢复速度
+config.tfc.general.playerNaturalRegenerationModifier.tooltip=修改玩家自然恢复生命值的速度。
+
+config.tfc.general.collapseChance=岩石塌方几率
+config.tfc.general.collapseChance.tooltip=挖掘未加工岩石引发塌方的几率。
+
+config.tfc.general.propagateCollapseChance=塌方传播几率
+config.tfc.general.propagateCollapseChance.tooltip=塌方的方块传播塌方的几率。受与塌方中心距离影响。
+
+config.tfc.general.slashingDamageSources=砍击伤害来源
+config.tfc.general.slashingDamageSources.tooltip=伤害来源类型将默认为砍击伤害。
+
+config.tfc.general.piercingDamageSources=刺击伤害来源
+config.tfc.general.piercingDamageSources.tooltip=伤害来源类型将默认为刺击伤害。
+
+config.tfc.general.crushingDamageSources=锤击伤害来源
+config.tfc.general.crushingDamageSources.tooltip=伤害来源类型将默认为锤击伤害。
+
+config.tfc.general.slashingDamageEntities=砍击伤害实体
+config.tfc.general.slashingDamageEntities.tooltip=伤害来源实体将默认造成砍击伤害。
+
+config.tfc.general.piercingDamageEntities=刺击伤害实体
+config.tfc.general.piercingDamageEntities.tooltip=伤害来源实体将默认造成刺击伤害。
+
+config.tfc.general.crushingDamageEntities=锤击伤害实体
+config.tfc.general.crushingDamageEntities.tooltip=伤害来源实体将默认造成锤击伤害。
+
+config.tfc.general.smallOreMetalAmount=粒金属含量
+config.tfc.general.smallOreMetalAmount.tooltip=小矿石/粒中含有的金属量。
+
+config.tfc.general.poorOreMetalAmount=贫瘠矿金属含量
+config.tfc.general.poorOreMetalAmount.tooltip=贫瘠矿中含有的金属量。
+
+config.tfc.general.normalOreMetalAmount=正常矿金属含量
+config.tfc.general.normalOreMetalAmount.tooltip=正常矿中含有的金属量。
+
+config.tfc.general.richOreMetalAmount=富矿金属含量
+config.tfc.general.richOreMetalAmount.tooltip=富矿中含有的金属量。
+
+config.tfc.general.forceNoVanillaNaturalRegeneration=强制无原版自然恢复
+config.tfc.general.forceNoVanillaNaturalRegeneration.tooltip=若为 true，将把游戏规则 naturalRegeneration 强制设置为 false 。注意：这不会影响群峦的自然恢复。若将 naturalRegeneration 设置为 true ，将同时有群峦和正常原版（比群峦快多了）的恢复。
+
+config.tfc.general.peacefulDifficultyPassiveRegeneration=和平难度被动恢复
+config.tfc.general.peacefulDifficultyPassiveRegeneration.tooltip=玩家是否应在和平难度下收到与原版相似的生命值，饱食度，口渴值的被动恢复？
+
+## Client Config
+config.tfc.general.woodenBucketWhitelist=木桶液体白名单
+config.tfc.general.woodenBucketWhitelist.tooltip=允许被木桶承装的液体列表。
 
 ## Config.Client
 config.tfc.client=客户端设置
@@ -132,9 +223,36 @@ config.tfc.client.toolip=仅作用于客户端。
 config.tfc.client.makeWorldTypeClassicDefault=默认使用 tfc_classic 群峦传说经典世界生成。
 config.tfc.client.makeWorldTypeClassicDefault.tooltip=仅在单人世界有效。
 
+config.tfc.client.showToolClassTooltip=显示物品工具类别提示
+config.tfc.client.showToolClassTooltip.tooltip=启用高级提示时显示 ItemStack 工具类。（F3+ H）
+
+config.tfc.client.showOreDictionaryTooltip=显示物品矿物词典提示
+config.tfc.client.showOreDictionaryTooltip.tooltip=启用高级提示时显示 ItemStack 矿物词典匹配。（F3+H）
+
+config.tfc.client.showNBTTooltip=显示物品 NBT 提示
+config.tfc.client.showNBTTooltip.tooltip=启用高级提示时在提示中显示 。（F3+H）
+
+config.tfc.client.propickOutputToActionBar=探矿输出到动作栏
+config.tfc.client.propickOutputToActionBar.tooltip=探矿应该输出到动作栏吗？（快捷栏上方的空间）
+
 ## Config.World
 config.tfc.world=世界生成设置
 config.tfc.world.tooltip=世界生成的各个方面
+
+config.tfc.world.hemisphereType=半球类型
+config.tfc.world.hemisphereType.tooltip=控制赤道附近的温度梯度。1：赤道以南热，赤道以北冷。-1：赤道以南冷，赤道以北热。
+
+config.tfc.world.cyclicTemperatureRegions=启用温度区域循环
+config.tfc.world.cyclicTemperatureRegions.tooltip=控制循环温度区域的出现。 如果想要带有温带赤道的无尽北/南，将此设置为 false。
+
+config.tfc.world.debugMode=调试模式（危险）
+config.tfc.world.debugMode.tooltip=调试世界生成 [危险] 你的世界将会受到影响！不要在你正常的世界里使用！
+
+config.tfc.world.latitudeTemperatureModifier=纬度温度修改
+config.tfc.world.latitudeTemperatureModifier.tooltip=控制温度区域的大小。每个温度区域的大小由正弦波确定。波周期的一半 = 热带和冷带之间的距离，以方块为单位
+
+config.tfc.world.clayRarity=粘土矿床稀有度
+config.tfc.world.clayRarity.tooltip=粘土坑产生的稀有度。平均 1 / N 区块（若可产生粘土）将含有粘土矿床。
 
 # Misc
 itemGroup.tfc.misc=群峦传说|杂项
@@ -2217,6 +2335,7 @@ item.tfc.straw.name=稻草
 item.leather.name=皮革
 item.tfc.spindle.name=纺锤
 item.tfc.handstone.name=手推磨磨盘
+item.tfc.wooden_bucket.name=木桶
 
 item.tfc.ore.native_copper.name=原生铜
 item.tfc.ore.native_gold.name=原生金
@@ -3388,6 +3507,8 @@ item.tfc.food.calamari.name=生鱿鱼
 item.tfc.food.horse_meat.name=生马肉
 item.tfc.food.pheasant.name=生雉鸡肉
 item.tfc.food.venison.name=生鹿肉
+item.tfc.food.rabbit.name=生兔肉
+item.tfc.food.wolf.name=生狼肉
 item.tfc.food.cooked_beef.name=熟牛肉
 item.tfc.food.cooked_pork.name=熟猪肉
 item.tfc.food.cooked_chicken.name=熟鸡肉
@@ -3398,6 +3519,8 @@ item.tfc.food.cooked_calamari.name=熟鱿鱼
 item.tfc.food.cooked_horse_meat.name=熟马肉
 item.tfc.food.cooked_pheasant.name=熟雉鸡肉
 item.tfc.food.cooked_venison.name=熟鹿肉
+item.tfc.food.cooked_rabbit.name=熟兔肉
+item.tfc.food.cooked_wolf.name=熟狼肉
 
 item.tfc.crop.seeds.barley.name=大麦种子
 item.tfc.crop.seeds.beet.name=甜菜种子
@@ -3414,12 +3537,12 @@ item.tfc.crop.seeds.red_bell_pepper.name=红甜椒种子
 item.tfc.crop.seeds.rice.name=水稻种子
 item.tfc.crop.seeds.rye.name=黑麦种子
 item.tfc.crop.seeds.soybean.name=大豆种子
-item.tfc.crop.seeds.squash.name=西葫芦籽
+item.tfc.crop.seeds.squash.name=西葫芦种子
 item.tfc.crop.seeds.sugarcane.name=甘蔗种子
 item.tfc.crop.seeds.tomato.name=番茄种子
 item.tfc.crop.seeds.wheat.name=小麦种子
 item.tfc.crop.seeds.yellow_bell_pepper.name=黄甜椒种子
-item.tfc.crop.seeds.pumpkin.name=西葫芦籽
+item.tfc.crop.seeds.pumpkin.name=南瓜种子
 item.tfc.crop.seeds.melon.name=西瓜种子
 
 item.tfc.crop.product.jute.name=黄麻
@@ -3441,3 +3564,5 @@ entity.pigtfc.name=猪
 entity.chickentfc.name=鸡
 entity.deertfc.name=鹿
 entity.pheasanttfc.name=雉鸡
+entity.rabbittfc.name=兔子
+entity.wolftfc.name=狼
