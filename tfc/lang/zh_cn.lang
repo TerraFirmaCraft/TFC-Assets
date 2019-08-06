@@ -220,8 +220,8 @@ config.tfc.general.woodenBucketWhitelist.tooltip=允许被木桶承装的液体�
 config.tfc.client=客户端设置
 config.tfc.client.toolip=仅作用于客户端。
 
-config.tfc.client.makeWorldTypeClassicDefault=默认使用 tfc_classic 群峦传说经典世界生成。
-config.tfc.client.makeWorldTypeClassicDefault.tooltip=仅在单人世界有效。
+config.tfc.client.makeWorldTypeClassicDefault=将群峦传说经典生成设为默认
+config.tfc.client.makeWorldTypeClassicDefault.tooltip=仅在客户端有效！服务器需要将世界类型设置为 tfc_classic。
 
 config.tfc.client.showToolClassTooltip=显示物品工具类别提示
 config.tfc.client.showToolClassTooltip.tooltip=启用高级提示时显示 ItemStack 工具类。（F3+ H）
