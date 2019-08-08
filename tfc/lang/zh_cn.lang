@@ -421,6 +421,22 @@ tfc.enum.nutrient.protein=蛋白质
 tfc.enum.nutrient.minerals=矿物质
 tfc.enum.nutrient.vitamins=维生素
 
+#JEI
+jei.category.tfc.alloy=合金配方
+jei.category.tfc.anvil=砧类配方
+jei.category.tfc.barrel=桶类配方
+jei.category.tfc.heat=加热配方
+jei.category.tfc.knap.clay=粘土塑形
+jei.category.tfc.knap.fireclay=耐火粘土塑形
+jei.category.tfc.knap.leather=皮革塑形
+jei.category.tfc.knap.stone=石子塑形
+jei.category.tfc.loom=织布机配方
+jei.category.tfc.quern=手推磨配方
+jei.category.tfc.welding=焊接配方
+
+jei.tooltips.tfc.barrel.instant=立即
+jei.tooltips.tfc.barrel.duration=%d 小时
+
 # Fluids
 fluid.salt_water=咸水
 fluid.fresh_water=淡水
