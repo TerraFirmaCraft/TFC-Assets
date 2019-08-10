@@ -131,6 +131,9 @@ config.tfc.general.leafStickDropChanceBonus.tooltip=树叶额外掉落木棍的�
 config.tfc.general.leafStickDropChanceBonusClasses=工具类树叶掉落木棍几率
 config.tfc.general.leafStickDropChanceBonusClasses.tooltip=使用对应工具树叶额外掉落木棍的几率
 
+config.tfc.general.stoneGemDropChance=岩石掉落宝石几率
+config.tfc.general.stoneGemDropChance.tooltip=任何宝石从未加工岩石中掉落的几率
+
 config.tfc.general.temperatureModifierGlobal=全局温度修改
 config.tfc.general.temperatureModifierGlobal.tooltip=修改物品获得和失去热量的速度。较小的值 = 较慢的温度变化。
 
@@ -245,8 +248,8 @@ config.tfc.world.hemisphereType.tooltip=控制赤道附近的温度梯度。1：
 config.tfc.world.cyclicTemperatureRegions=启用温度区域循环
 config.tfc.world.cyclicTemperatureRegions.tooltip=控制循环温度区域的出现。 如果想要带有温带赤道的无尽北/南，将此设置为 false。
 
-config.tfc.world.debugMode=调试模式（危险）
-config.tfc.world.debugMode.tooltip=调试世界生成 [危险] 你的世界将会受到影响！不要在你正常的世界里使用！
+config.tfc.world.debugWorldGen=调试模式（危险）
+config.tfc.world.debugWorldGen.tooltip=调试世界生成 [危险] 你的世界将会受到影响！不要在你正常的世界里使用！
 
 config.tfc.world.latitudeTemperatureModifier=纬度温度修改
 config.tfc.world.latitudeTemperatureModifier.tooltip=控制温度区域的大小。每个温度区域的大小由正弦波确定。波周期的一半 = 热带和冷带之间的距离，以方块为单位
@@ -2352,6 +2355,10 @@ item.leather.name=皮革
 item.tfc.spindle.name=纺锤
 item.tfc.handstone.name=手推磨磨盘
 item.tfc.wooden_bucket.name=木桶
+item.tfc.wooden_bucket.filled=%s木桶
+item.tfc.ceramics.fired.jug.name=罐
+item.tfc.ceramics.fired.jug.filled=%s罐
+item.tfc.mortar.name=砂浆
 
 item.tfc.ore.native_copper.name=原生铜
 item.tfc.ore.native_gold.name=原生金
@@ -3423,7 +3430,6 @@ item.tfc.ceramics.fired.spindle.name=纺锤头
 item.tfc.ceramics.unfired.spindle.name=未烧制纺锤头
 item.tfc.ceramics.fired.pot.name=锅
 item.tfc.ceramics.unfired.pot.name=未烧制锅
-item.tfc.ceramics.fired.jug.name=罐
 item.tfc.ceramics.unfired.jug.name=未烧制罐
 item.tfc.ceramics.fired.bowl.name=碗
 item.tfc.ceramics.unfired.bowl.name=未烧制碗
