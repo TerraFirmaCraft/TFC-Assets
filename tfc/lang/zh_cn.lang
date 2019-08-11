@@ -1,4 +1,4 @@
-# Contributions
+	# Contributions
 # 感谢为中文本地化贡献力量的所有人。
 # 初稿：青乌 人间之蟹 gdufw hidfug HeartyYF
 # 校对：hidfug HeartyYF zhanj xwjcool123
@@ -257,6 +257,9 @@ config.tfc.world.latitudeTemperatureModifier.tooltip=控制温度区域的大小
 config.tfc.world.clayRarity=粘土矿床稀有度
 config.tfc.world.clayRarity.tooltip=粘土坑产生的稀有度。平均 1 / N 区块（若可产生粘土）将含有粘土矿床。
 
+config.tfc.world.looseRocksFrequency=碎石频率Loose Rocks Frequency
+config.tfc.world.looseRocksFrequency.tooltip=每个区块生成碎石的尝试次数。包括地表矿石样本。
+
 # Misc
 itemGroup.tfc.misc=群峦传说|杂项
 itemGroup.tfc.rock.blocks=群峦传说|石&土方块
@@ -494,6 +497,9 @@ fluid.unknown=未知熔融金属
 
 
 tile.tfc.debug.name=群峦传说调试方块
+tile.tfc.placed_item.name=放置的物品
+tile.tfc.placed_item_flat.name=杂物
+tile.tfc.pit_kiln.name=坑窑
 tile.tfc.peat.name=泥炭
 tile.tfc.peat_grass.name=长草的泥炭
 tile.tfc.thatch.name=茅草
@@ -506,6 +512,8 @@ tile.tfc.bloomery.name=锻铁炉
 tile.tfc.fire_bricks.name=防火砖
 tile.tfc.quern.name=手推磨
 tile.tfc.ceramics.fired.large_vessel.name=大缸
+tile.tfc.ice.name=冰
+tile.tfc.sea_ice.name=海冰
 
 ## Stone types & variaties, Wood, Stairs, Slabs, ....
 tile.tfc.raw.granite.name=未加工花岗岩
