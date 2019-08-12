@@ -120,7 +120,10 @@ config.tfc.general.debug=调试模式
 config.tfc.general.debug.tooltip=各种调试选项。激活一些额外的调试魔杖特性。启用额外的物品提示。
 
 config.tfc.general.removeVanillaRecipes=移除原版合成配方
-config.tfc.general.removeVanillaRecipes.tooltip=启用/禁用原版配方移除。false = 保留所有原版配方
+config.tfc.general.removeVanillaRecipes.tooltip=启用/禁用原版配方移除。false = 保留所有原版配方。
+
+config.tfc.general.removeVanillaLoots=移除原版掠夺表Remove Vanilla Loots
+config.tfc.general.removeVanillaLoots.tooltip=启用/禁用与群峦传说冲突的原版掠夺表入口（例如马铃薯）。false = 保留这些掠夺表。
 
 config.tfc.general.leafStickDropChance=树叶掉落木棍几率
 config.tfc.general.leafStickDropChance.tooltip=树叶正常掉落木棍的几率
@@ -2476,11 +2479,11 @@ item.tfc.ore.borax.rich.name=富集硼砂
 item.tfc.ore.olivine.rich.name=富集橄榄石
 item.tfc.ore.lapis_lazuli.rich.name=富集青金石
 
-item.tfc.ore.small.native_copper.name=小型原生铜
-item.tfc.ore.small.native_gold.name=小型原生金
-item.tfc.ore.small.native_platinum.name=小型原生铂
+item.tfc.ore.small.native_copper.name=原生铜粒
+item.tfc.ore.small.native_gold.name=原生金粒
+item.tfc.ore.small.native_platinum.name=原生铂粒
 item.tfc.ore.small.hematite.name=小型赤铁矿
-item.tfc.ore.small.native_silver.name=小型原生银
+item.tfc.ore.small.native_silver.name=原生银粒
 item.tfc.ore.small.cassiterite.name=小型锡石
 item.tfc.ore.small.galena.name=小型方铅矿
 item.tfc.ore.small.bismuthinite.name=小型辉铋矿
