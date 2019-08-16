@@ -84,6 +84,10 @@ tfc.propick.found_large=发现大量
 tfc.propick.found_very_large=发现巨量
 tfc.propick.found_nothing=没发现什么有意思的。
 
+## Thatch Bed
+tfc.thatch_bed.spawnpoint=出生点已设置。
+tfc.thatch_bed.not_thundering=这张床太不舒服了This bed is too uncomfortable to sleep.
+
 ## Food Traits
 tfc.food_traits.smoked=熏制
 tfc.food_traits.brined=盐渍
@@ -122,7 +126,7 @@ config.tfc.general.debug.tooltip=各种调试选项。激活一些额外的调�
 config.tfc.general.removeVanillaRecipes=移除原版合成配方
 config.tfc.general.removeVanillaRecipes.tooltip=启用/禁用原版配方移除。false = 保留所有原版配方。
 
-config.tfc.general.removeVanillaLoots=移除原版掠夺表Remove Vanilla Loots
+config.tfc.general.removeVanillaLoots=移除原版掠夺表
 config.tfc.general.removeVanillaLoots.tooltip=启用/禁用与群峦传说冲突的原版掠夺表入口（例如马铃薯）。false = 保留这些掠夺表。
 
 config.tfc.general.leafStickDropChance=树叶掉落木棍几率
@@ -260,7 +264,7 @@ config.tfc.world.latitudeTemperatureModifier.tooltip=控制温度区域的大小
 config.tfc.world.clayRarity=粘土矿床稀有度
 config.tfc.world.clayRarity.tooltip=粘土坑产生的稀有度。平均 1 / N 区块（若可产生粘土）将含有粘土矿床。
 
-config.tfc.world.looseRocksFrequency=碎石频率Loose Rocks Frequency
+config.tfc.world.looseRocksFrequency=碎石频率
 config.tfc.world.looseRocksFrequency.tooltip=每个区块生成碎石的尝试次数。包括地表矿石样本。
 
 # Misc
