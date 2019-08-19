@@ -2,9 +2,7 @@
 	"credit": "Made with Blockbench",
 	"textures": {
 		"1": "tfc:items/metal/shield/steel_front",
-		"2": "tfc:items/metal/shield/steel_back",
-		"texture": "tfc:items/metal/shield/steel",
-		"particle": "tfc:items/metal/shield/steel"
+		"2": "tfc:items/metal/shield/steel_back"
 	},
 	"elements": [
 		{

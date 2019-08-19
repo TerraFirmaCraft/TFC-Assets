@@ -4,6 +4,7 @@
 		"1": "tfc:items/metal/shield/steel_front",
 		"2": "tfc:items/metal/shield/steel_back"
 	},
+	"elements": [
 		{
 			"from": [1, 9, 7],
 			"to": [2, 15, 8],
