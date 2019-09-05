@@ -244,14 +244,14 @@ config.tfc.general.forceNoVanillaNaturalRegeneration.tooltip=若为 true，将�
 config.tfc.general.peacefulDifficultyPassiveRegeneration=和平难度被动恢复
 config.tfc.general.peacefulDifficultyPassiveRegeneration.tooltip=玩家是否应在和平难度下与原版相似地被动恢复生命值，饱食度，口渴值？
 
-config.tfc.general.regenSticksRocks=木棍&岩石重生成
-config.tfc.general.regenSticksRocks.tooltip=木棍和岩石重生成多快，以天为单位。设置为 0 以完全禁用。
+config.tfc.general.regenSticksRocks=木棍&岩石重生周期
+config.tfc.general.regenSticksRocks.tooltip=木棍和岩石的重生周期，以天为单位。设置为 0 以完全禁用。
 
-config.tfc.general.regenPlants=植物重生成
-config.tfc.general.regenPlants.tooltip=植物重生成多快，以月为单位。设置为 0 以完全禁用。
+config.tfc.general.regenPlants=植物重生周期
+config.tfc.general.regenPlants.tooltip=植物的重生周期，以月为单位。设置为 0 以完全禁用。
 
-config.tfc.general.regenCrops=野生作物&浆果灌木重生成
-config.tfc.general.regenCrops.tooltip=野生作物&浆果灌木重生成多快，以月为单位。设置为 0 以完全禁用。
+config.tfc.general.regenCrops=野生作物&浆果灌木重生周期
+config.tfc.general.regenCrops.tooltip=野生作物&浆果灌木的重生周期，以月为单位。设置为 0 以完全禁用。
 
 ## Client Config
 config.tfc.general.woodenBucketWhitelist=木桶液体白名单
@@ -276,8 +276,8 @@ config.tfc.client.showNBTTooltip.tooltip=启用高级提示时在提示中显示
 config.tfc.client.propickOutputToActionBar=探矿输出到动作栏
 config.tfc.client.propickOutputToActionBar.tooltip=探矿应该输出到动作栏吗？（快捷栏上方的空间）
 
-config.tfc.client.rottenFoodOverlayColor=腐烂食物文字颜色
-config.tfc.client.rottenFoodOverlayColor.tooltip=腐烂食物文字的颜色。以 256 位颜色值表示：0xFFFFFF = 白色，0x000000 = 黑色
+config.tfc.client.rottenFoodOverlayColor=腐烂食物覆盖层颜色
+config.tfc.client.rottenFoodOverlayColor.tooltip=在腐烂食物上额外渲染的颜色。以 256 位颜色值表示：0xFFFFFF = 白色，0x000000 = 黑色
 
 ## Config.World
 config.tfc.world=世界生成设置
@@ -541,6 +541,7 @@ tile.tfc.debug.name=群峦传说调试方块
 tile.tfc.placed_item.name=放置的物品
 tile.tfc.placed_item_flat.name=杂物
 tile.tfc.pit_kiln.name=坑窑
+tile.tfc.charcoal_forge.name=木炭炉
 tile.tfc.peat.name=泥炭
 tile.tfc.peat_grass.name=长草的泥炭
 tile.tfc.thatch.name=干草块
@@ -2099,27 +2100,27 @@ tile.tfc.wall.bricks.phyllite.name=千枚岩砖块墙
 tile.tfc.wall.bricks.schist.name=片岩砖块墙
 tile.tfc.wall.bricks.gneiss.name=片麻岩砖块墙
 tile.tfc.wall.bricks.marble.name=大理岩砖块墙
-tile.tfc.wall.smooth.granite.name=花岗岩平滑墙
-tile.tfc.wall.smooth.diorite.name=闪长岩平滑墙
-tile.tfc.wall.smooth.gabbro.name=辉长岩平滑墙
-tile.tfc.wall.smooth.shale.name=页岩平滑墙
-tile.tfc.wall.smooth.claystone.name=黏土岩平滑墙
-tile.tfc.wall.smooth.rocksalt.name=盐岩平滑墙
-tile.tfc.wall.smooth.limestone.name=石灰岩平滑墙
-tile.tfc.wall.smooth.conglomerate.name=砾岩平滑墙
-tile.tfc.wall.smooth.dolomite.name=白云岩平滑墙
-tile.tfc.wall.smooth.chert.name=硅质岩平滑墙
-tile.tfc.wall.smooth.chalk.name=白垩岩平滑墙
-tile.tfc.wall.smooth.rhyolite.name=流纹岩平滑墙
-tile.tfc.wall.smooth.basalt.name=玄武岩平滑墙
-tile.tfc.wall.smooth.andesite.name=安山岩平滑墙
-tile.tfc.wall.smooth.dacite.name=英安岩平滑墙
-tile.tfc.wall.smooth.quartzite.name=石英岩平滑墙
-tile.tfc.wall.smooth.slate.name=板岩平滑墙
-tile.tfc.wall.smooth.phyllite.name=千枚岩平滑墙
-tile.tfc.wall.smooth.schist.name=片岩平滑墙
-tile.tfc.wall.smooth.gneiss.name=片麻岩平滑墙
-tile.tfc.wall.smooth.marble.name=大理岩平滑墙
+tile.tfc.wall.smooth.granite.name=平滑花岗岩墙
+tile.tfc.wall.smooth.diorite.name=平滑闪长岩墙
+tile.tfc.wall.smooth.gabbro.name=平滑辉长岩墙
+tile.tfc.wall.smooth.shale.name=平滑页岩墙
+tile.tfc.wall.smooth.claystone.name=平滑黏土岩墙
+tile.tfc.wall.smooth.rocksalt.name=平滑盐岩墙
+tile.tfc.wall.smooth.limestone.name=平滑石灰岩墙
+tile.tfc.wall.smooth.conglomerate.name=平滑砾岩墙
+tile.tfc.wall.smooth.dolomite.name=平滑白云岩墙
+tile.tfc.wall.smooth.chert.name=平滑硅质岩墙
+tile.tfc.wall.smooth.chalk.name=平滑白垩岩墙
+tile.tfc.wall.smooth.rhyolite.name=平滑流纹岩墙
+tile.tfc.wall.smooth.basalt.name=平滑玄武岩墙
+tile.tfc.wall.smooth.andesite.name=平滑安山岩墙
+tile.tfc.wall.smooth.dacite.name=平滑英安岩墙
+tile.tfc.wall.smooth.quartzite.name=平滑石英岩墙
+tile.tfc.wall.smooth.slate.name=平滑板岩墙
+tile.tfc.wall.smooth.phyllite.name=平滑千枚岩墙
+tile.tfc.wall.smooth.schist.name=平滑片岩墙
+tile.tfc.wall.smooth.gneiss.name=平滑片麻岩墙
+tile.tfc.wall.smooth.marble.name=平滑大理岩墙
 
 # Plants
 itemGroup.tfc.flora=群峦传说植物群
@@ -2128,7 +2129,7 @@ tile.tfc.plants.athyrium_fern.name=蹄盖蕨
 tile.tfc.plants.badderlocks.name=翅藻
 tile.tfc.plants.barrel_cactus.name=圆筒掌
 tile.tfc.plants.black_orchid.name=黑兰花
-tile.tfc.plants.blood_lily.name=血百合
+tile.tfc.plants.blood_lily.name=网球花
 tile.tfc.plants.blue_orchid.name=兰花
 tile.tfc.plants.butterfly_milkweed.name=蝶乳草
 tile.tfc.plants.calendula.name=金盏花
