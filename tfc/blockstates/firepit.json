@@ -19,8 +19,7 @@
     },
     "inventory": [
       {
-        "transform": "forge:default-block",
-        "model": "tfc:firepit/lit"
+        "transform": "forge:default-block"
       }
     ],
     "normal": [
