@@ -21,7 +21,7 @@ tfc.tooltip.barrel_empty=空
 tfc.tooltip.barrel_fluid=含 %1$d mB 的 %2$s
 tfc.tooltip.barrel_fluid_amount=%d mB
 tfc.tooltip.barrel_item=含 %1$dx% 2$s
-tfc.tooltip.barrel_item_in_fluid=和 %1$dx %2$s
+tfc.tooltip.barrel_item_in_fluid= 和 %1$dx %2$s
 tfc.tooltip.small_vessel_empty=空
 tfc.tooltip.small_vessel_item=%1$dx %2$s
 tfc.tooltip.weldable=可焊接
@@ -57,6 +57,8 @@ tfc.tooltip.blast_furnace_melt_amount=熔化
 tfc.tooltip.large_vessel_seal=密封大缸
 tfc.tooltip.large_vessel_unseal=启封大缸
 tfc.tooltip.goldpan.chunkworked=这片地区似乎已被过度开采。你或许发现不了什么。
+tfc.tooltip.smithing_skill=技能加成：%0.1f%%
+tfc.tooltip.crucible_alloy=含 %1$d mB 的 %2$s
 
 ## Animal Tooltips / Messages
 tfc.tooltip.animal.old=这只动物太老了，不能给它配种。
@@ -97,6 +99,17 @@ tfc.food_traits.salted=抹盐
 tfc.food_traits.pickled=腌制
 tfc.food_traits.pickled_active=腌制中
 tfc.food_traits.preserved=储存
+
+## Skills
+tfc.skill.prospecting=探矿：%s
+tfc.skill.smithing=锻造：%s
+tfc.skill.agriculture=农业：%s
+tfc.skill.butchering=屠宰：%s
+
+tfc.enum.skilltier.novice=新手
+tfc.enum.skilltier.adept=老手
+tfc.enum.skilltier.expert=专家
+tfc.enum.skilltier.master=大师
 
 ## Keybindings
 tfc.key.craft=合成面板
@@ -218,7 +231,7 @@ config.tfc.general.richOreMetalAmount=富集矿金属含量
 config.tfc.general.richOreMetalAmount.tooltip=富集矿中含有的金属量。
 
 config.tfc.general.maxWorkChunk=区块最大开采量
-config.tfc.general.maxWorkChunk.tooltip=一个区块能被开采的次数。注意：洗矿槽增加 1 而淘金盘增加 6 。
+config.tfc.general.maxWorkChunk.tooltip=在一个区块内开采的最大次数。注意：洗矿槽增加 1 而淘金盘增加 6 。
 
 config.tfc.general.sluiceRadius=洗矿槽半径
 config.tfc.general.sluiceRadius.tooltip=以区块为单位的洗矿槽工作半径。
@@ -252,6 +265,16 @@ config.tfc.general.regenPlants.tooltip=植物的重生周期，以月为单位�
 
 config.tfc.general.regenCrops=野生作物&浆果灌木重生周期
 config.tfc.general.regenCrops.tooltip=野生作物&浆果灌木的重生周期，以月为单位。设置为 0 以完全禁用。
+
+config.tfc.general.foodDecayStackTime=食物腐烂叠加时间
+config.tfc.general.foodDecayStackTime.tooltip=食物初始保质期的同步值。当食物首次成为物品时，其初始保质期将四舍五入至该值最接近的倍数（以小时为单位）。
+
+config.tfc.general.oreDictIron=矿物词典 锻铁 - iron
+config.tfc.general.oreDictIron.tooltip=向锻铁物品添加 iron 的矿物词典吗？
+
+config.tfc.general.oreDictPlate=矿物词典 薄板 - plate
+config.tfc.general.oreDictPlate.tooltip=向薄板物品添加 plate 的矿物词典吗？
+
 
 ## Client Config
 config.tfc.general.woodenBucketWhitelist=木桶液体白名单
@@ -557,6 +580,7 @@ tile.tfc.ceramics.fired.large_vessel.name=大缸
 tile.tfc.sluice.name=洗矿槽
 tile.tfc.ice.name=冰
 tile.tfc.sea_ice.name=海冰
+tile.tfc.nest_box.name=巢箱
 
 ## Stone types & variaties, Wood, Stairs, Slabs, ....
 tile.tfc.raw.granite.name=未加工花岗岩
@@ -3311,14 +3335,14 @@ item.tfc.goldpan.gravel.name=带沙砾的淘金盘
 
 item.tfc.powder.flux.name=助焊剂
 item.tfc.powder.coke.name=焦炭
-item.tfc.powder.kaolinite_powder.name=高岭石粉
-item.tfc.powder.graphite_powder.name=石墨粉
-item.tfc.powder.sulfur_powder.name=硫磺粉
-item.tfc.powder.saltpeter_powder.name=硝石粉
-item.tfc.powder.hematite_powder.name=赤铁矿粉
-item.tfc.powder.lapis_lazuli_powder.name=青金石粉
-item.tfc.powder.limonite_powder.name=褐铁矿粉
-item.tfc.powder.malachite_powder.name=孔雀石粉
+item.tfc.powder.kaolinite.name=高岭石粉
+item.tfc.powder.graphite.name=石墨粉
+item.tfc.powder.sulfur.name=硫磺粉
+item.tfc.powder.saltpeter.name=硝石粉
+item.tfc.powder.hematite.name=赤铁矿粉
+item.tfc.powder.lapis_lazuli.name=青金石粉
+item.tfc.powder.limonite.name=褐铁矿粉
+item.tfc.powder.malachite.name=孔雀石粉
 item.tfc.powder.salt.name=盐
 item.tfc.powder.fertilizer.name=肥料
 
