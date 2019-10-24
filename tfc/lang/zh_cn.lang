@@ -275,6 +275,12 @@ config.tfc.general.oreDictIron.tooltip=向锻铁物品添加 iron 的矿物词�
 config.tfc.general.oreDictPlate=矿物词典 薄板 - plate
 config.tfc.general.oreDictPlate.tooltip=向薄板物品添加 plate 的矿物词典吗？
 
+config.tfc.general.spawnProtectionEnable=启用生成保护
+config.tfc.general.spawnProtectionEnable.tooltip=Should living in a chunk block hostile mob spawning over time?
+
+config.tfc.general.spawnProtectionMinY=区块生成保护最低 Y 值
+config.tfc.general.spawnProtectionMinY.tooltip=区块生成保护的最低 Y 值。（在该高度以下的区域不受区块生成保护的限制）
+
 
 ## Client Config
 config.tfc.general.woodenBucketWhitelist=木桶液体白名单
@@ -424,11 +430,11 @@ tfc.enum.forgerule.hit_not_last=击打，非最末
 tfc.enum.forgerule.hit_last=击打，末尾
 tfc.enum.forgerule.hit_second_last=击打，倒数第二
 tfc.enum.forgerule.hit_third_last=击打，倒数第三
-tfc.enum.forgerule.draw_any=牵引，任意
-tfc.enum.forgerule.draw_last=牵引，末尾
-tfc.enum.forgerule.draw_not_last=牵引，非最末
-tfc.enum.forgerule.draw_second_last=牵引，倒数第二
-tfc.enum.forgerule.draw_third_last=牵引，倒数第三
+tfc.enum.forgerule.draw_any=牵拉，任意
+tfc.enum.forgerule.draw_last=牵拉，末尾
+tfc.enum.forgerule.draw_not_last=牵拉，非最末
+tfc.enum.forgerule.draw_second_last=牵拉，倒数第二
+tfc.enum.forgerule.draw_third_last=牵拉，倒数第三
 tfc.enum.forgerule.punch_any=冲压，任意
 tfc.enum.forgerule.punch_last=冲压，末尾
 tfc.enum.forgerule.punch_not_last=冲压，非最末
@@ -2644,6 +2650,26 @@ item.tfc.wood.lumber.acacia.name=金合欢木材
 item.tfc.wood.lumber.rosewood.name=蔷薇木材
 item.tfc.wood.lumber.blackwood.name=黑檀木材
 item.tfc.wood.lumber.palm.name=棕榈木材
+
+item.tfc.wood.boat.ash.name=黑梣木船
+item.tfc.wood.boat.aspen.name=山杨木船
+item.tfc.wood.boat.birch.name=白桦木船
+item.tfc.wood.boat.chestnut.name=栗木船
+item.tfc.wood.boat.douglas_fir.name=花旗松木船
+item.tfc.wood.boat.hickory.name=山核桃木船
+item.tfc.wood.boat.maple.name=枫木船
+item.tfc.wood.boat.oak.name=白橡木船
+item.tfc.wood.boat.pine.name=松木船
+item.tfc.wood.boat.sequoia.name=红杉木船
+item.tfc.wood.boat.spruce.name=云杉木船
+item.tfc.wood.boat.sycamore.name=悬铃木船
+item.tfc.wood.boat.white_cedar.name=香柏木船
+item.tfc.wood.boat.willow.name=柳木船
+item.tfc.wood.boat.kapok.name=木棉木船
+item.tfc.wood.boat.acacia.name=金合欢木船
+item.tfc.wood.boat.rosewood.name=蔷薇木船
+item.tfc.wood.boat.blackwood.name=黑檀木船
+item.tfc.wood.boat.palm.name=棕榈木船
 
 item.tfc.wood.door.ash.name=黑梣木门
 item.tfc.wood.door.aspen.name=山杨木门
