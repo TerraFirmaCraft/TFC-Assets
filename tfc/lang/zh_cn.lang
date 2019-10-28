@@ -281,12 +281,14 @@ config.tfc.general.spawnProtectionEnable.tooltip=Should living in a chunk block 
 config.tfc.general.spawnProtectionMinY=区块生成保护最低 Y 值
 config.tfc.general.spawnProtectionMinY.tooltip=区块生成保护的最低 Y 值。（在该高度以下的区域不受区块生成保护的限制）
 
+config.tfc.general.charcoalPitTime=木炭炉时间
+config.tfc.general.charcoalPitTime.tooltip=木炭炉完成所需要的刻数。
+
 
 ## Client Config
 config.tfc.general.woodenBucketWhitelist=木桶液体白名单
 config.tfc.general.woodenBucketWhitelist.tooltip=允许被木桶承装的液体列表。
 
-## Config.Client
 config.tfc.client=客户端设置
 config.tfc.client.toolip=仅作用于客户端。
 
