@@ -56,16 +56,15 @@ tfc.tooltip.crucible_alloy=Contains %1$d mB of %2$s
 
 ## Animal Tooltips / Messages
 tfc.tooltip.animal.old=This animal is too old to mate.
-tfc.tooltip.animal.familiaritymate=This animal has low familiarity to mate.
+tfc.tooltip.animal.lowfamiliarity=This animal has low familiarity to mate.
 tfc.tooltip.animal.pregnant=This female is pregnant!
 tfc.tooltip.animal.resting=This animal is resting from today's mating.
-tfc.tooltip.animal.familiaritylow=This animal wont let you do that.
-tfc.tooltip.animal.child=This animal is too young for you to do that.
 
-tfc.tooltip.animal.milk.male=This is a male!
-tfc.tooltip.animal.milk.old=This animal is too old to be milked.
-tfc.tooltip.animal.milk.child=This animal is too young to be milked.
-tfc.tooltip.animal.milk.empty=This animal has been milked today.
+tfc.tooltip.animal.milk.male=This is a bull!
+tfc.tooltip.animal.milk.old=This cow is too old to be milked.
+tfc.tooltip.animal.milk.child=This cow is too young to be milked.
+tfc.tooltip.animal.milk.lowfamiliarity=This cow has low familiarity to let you milk it.
+tfc.tooltip.animal.milk.empty=This cow has been milked today.
 
 ## Command Tooltips / Messages
 tfc.tooltip.set_month_length=Set Month Length to %d days.
@@ -276,12 +275,14 @@ config.tfc.general.spawnProtectionEnable.tooltip=Should living in a chunk block 
 config.tfc.general.spawnProtectionMinY=Spawn Protection Minimum Y Level
 config.tfc.general.spawnProtectionMinY.tooltip=The min Y value a spawn has to be for spawn protection to be considered. (spawns under this level won't be stopped by spawn protection.
 
+config.tfc.general.charcoalPitTime=Charcoal Pit Ticks
+config.tfc.general.charcoalPitTime.tooltip=The time required for a charcoal pit to complete
+
 
 ## Client Config
 config.tfc.general.woodenBucketWhitelist=Wooden Bucket Fluid Whitelist
 config.tfc.general.woodenBucketWhitelist.tooltip=Allowed fluids to be picked up by the wooden bucket.
 
-## Config.Client
 config.tfc.client=Client Settings
 config.tfc.client.toolip=Client side only.
 
@@ -3627,9 +3628,6 @@ item.tfc.food.pheasant.name=Raw Pheasant
 item.tfc.food.venison.name=Raw Venison
 item.tfc.food.rabbit.name=Raw Rabbit Meat
 item.tfc.food.wolf.name=Raw Wolf Meat
-item.tfc.food.viande.name=Raw Viande
-item.tfc.food.duck.name=Raw Duck
-item.tfc.food.chevon.name=Raw Chevon
 item.tfc.food.cooked_beef.name=Cooked Beef
 item.tfc.food.cooked_pork.name=Cooked Pork
 item.tfc.food.cooked_chicken.name=Cooked Chicken
@@ -3642,9 +3640,6 @@ item.tfc.food.cooked_pheasant.name=Cooked Pheasant
 item.tfc.food.cooked_venison.name=Cooked Venison
 item.tfc.food.cooked_rabbit.name=Cooked Rabbit Meat
 item.tfc.food.cooked_wolf.name=Cooked Wolf
-item.tfc.food.cooked_viande.name=Cooked Viande
-item.tfc.food.cooked_duck.name=Cooked Duck
-item.tfc.food.cooked_chevon.name=Cooked Chevon
 
 item.tfc.crop.seeds.barley.name=Barley Seeds
 item.tfc.crop.seeds.beet.name=Beet Seeds
@@ -3693,6 +3688,3 @@ entity.wolftfc.name=Wolf
 entity.horsetfc.name=Horse
 entity.donkeytfc.name=Donkey
 entity.muletfc.name=Mule
-entity.alpacatfc.name=Alpaca
-entity.ducktfc.name=Duck
-entity.goattfc.name=Goat
