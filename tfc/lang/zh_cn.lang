@@ -77,6 +77,8 @@ tfc.tooltip.set_month_length=将月长度设置为 %d 天。
 tfc.tooltip.time_command_set_player_time=将玩家时间设置为 %d 。
 tfc.tooltip.time_command_set_calendar_time=将日历时间设置为 %s 。
 tfc.tooltip.time_command_disabled=此命令已被群峦传说禁用。作为替代，请使用 /timetfc ！
+tfc.tooltip.skill_set=将 %s 设置为 %.2f 级
+tfc.tooltip.skill_add=向 %s 添加了 %.2f 级
 
 ## Prospecting Result Messages
 tfc.propick.found=发现
@@ -97,8 +99,9 @@ tfc.food_traits.brined=盐渍
 tfc.food_traits.brined_active=盐渍中
 tfc.food_traits.salted=抹盐
 tfc.food_traits.pickled=腌制
-tfc.food_traits.pickled_active=腌制中
 tfc.food_traits.preserved=储存
+tfc.tooltip.barrel_recipe_pickling=腌制中
+tfc.tooltip.barrel_recipe_brining=盐渍中
 
 ## Skills
 tfc.skill.prospecting=探矿：%s
@@ -332,6 +335,15 @@ config.tfc.world.clayRarity.tooltip=粘土坑产生的稀有度。平均 1 / N �
 config.tfc.world.looseRocksFrequency=石子频率
 config.tfc.world.looseRocksFrequency.tooltip=每个区块生成地表石子的尝试次数。包括地表矿石样本。
 
+config.tfc.world.rainfallSpreadFactor=降雨量分布因子
+config.tfc.world.rainfallSpreadFactor.tooltip=控制降雨量如何分布。更高的值使分布更极端。警告：可能导致世界生成非常疯狂。
+
+config.tfc.world.floraDiversitySpreadFactor=植物群多样性分布因子
+config.tfc.world.floraDiversitySpreadFactor.tooltip=控制植物群多样性如何分布。更高的值使分布更极端。警告：可能导致世界生成非常疯狂。
+
+config.tfc.world.floraDensitySpreadFactor=植物群密度分布因子
+config.tfc.world.floraDensitySpreadFactor.tooltip=控制植物群密度如何分布。更高的值使分布更极端。警告：可能导致世界生成非常疯狂。
+
 # Misc
 itemGroup.tfc.misc=群峦传说|杂项
 itemGroup.tfc.rock.blocks=群峦传说|石&土方块
@@ -532,6 +544,7 @@ fluid.brine=卤水
 fluid.olive_oil=橄榄油
 fluid.tannin=鞣酸
 fluid.limewater=石灰水
+fluid.milk=牛奶
 fluid.milk_curdled=凝乳
 fluid.milk_vinegar=奶酪
 fluid.bismuth=熔融铋
@@ -3694,3 +3707,5 @@ entity.wolftfc.name=狼
 entity.horsetfc.name=马
 entity.donkeytfc.name=驴
 entity.muletfc.name=骡
+
+death.attack.dehydration=%1$s 死于脱水
