@@ -260,14 +260,11 @@ config.tfc.general.forceNoVanillaNaturalRegeneration.tooltip=若为 true，将�
 config.tfc.general.peacefulDifficultyPassiveRegeneration=和平难度被动恢复
 config.tfc.general.peacefulDifficultyPassiveRegeneration.tooltip=玩家是否应在和平难度下与原版相似地被动恢复生命值，饱食度，口渴值？
 
-config.tfc.general.regenSticksRocks=木棍&岩石重生周期
-config.tfc.general.regenSticksRocks.tooltip=木棍和岩石的重生周期，以天为单位。设置为 0 以完全禁用。
+config.tfc.general.worldRegenerationMinimumTime=世界重生最小时间
+config.tfc.general.worldRegenerationMinimumTime.tooltip=区块空闲以开始自然再生资源所需的最短时间（以天为单位）。在此之后，资源再生将根据自此时间以来持续的时间加速，最高可达 4 倍T.
 
-config.tfc.general.regenPlants=植物重生周期
-config.tfc.general.regenPlants.tooltip=植物的重生周期，以月为单位。设置为 0 以完全禁用。
-
-config.tfc.general.regenCrops=野生作物&浆果灌木重生周期
-config.tfc.general.regenCrops.tooltip=野生作物&浆果灌木的重生周期，以月为单位。设置为 0 以完全禁用。
+config.tfc.general.worldRegenerationSticksRocksModifier=地表物资重生修改
+config.tfc.general.worldRegenerationSticksRocksModifier.tooltip=地表上碎石和木棍再生的 weight。
 
 config.tfc.general.foodDecayStackTime=食物腐烂叠加时间
 config.tfc.general.foodDecayStackTime.tooltip=食物初始保质期的同步值。当食物首次成为物品时，其初始保质期将四舍五入至该值最接近的倍数（以小时为单位）。
@@ -346,8 +343,8 @@ config.tfc.world.floraDensitySpreadFactor.tooltip=控制植物群密度如何分
 
 # Misc
 itemGroup.tfc.misc=群峦传说|杂项
-itemGroup.tfc.rock.blocks=群峦传说|石&土方块
-itemGroup.tfc.rock.items=群峦传说|矿物&工具
+itemGroup.tfc.rock.blocks=群峦传说|石 & 土方块
+itemGroup.tfc.rock.items=群峦传说|矿物 & 工具
 itemGroup.tfc.wood=群峦传说|木材
 itemGroup.tfc.decorations=群峦传说|装饰品
 itemGroup.tfc.pottery=群峦传说|陶器
