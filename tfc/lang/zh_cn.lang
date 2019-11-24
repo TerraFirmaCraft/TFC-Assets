@@ -264,7 +264,7 @@ config.tfc.general.worldRegenerationMinimumTime=世界重生最小时间
 config.tfc.general.worldRegenerationMinimumTime.tooltip=区块空闲以开始自然再生资源所需的最短时间（以天为单位）。在此之后，资源再生将根据自此时间以来持续的时间加速，最高可达 4 倍T.
 
 config.tfc.general.worldRegenerationSticksRocksModifier=地表物资重生修改
-config.tfc.general.worldRegenerationSticksRocksModifier.tooltip=地表上碎石和木棍再生的 weight。
+config.tfc.general.worldRegenerationSticksRocksModifier.tooltip=地表上碎石和木棍再生的数目。
 
 config.tfc.general.foodDecayStackTime=食物腐烂叠加时间
 config.tfc.general.foodDecayStackTime.tooltip=食物初始保质期的同步值。当食物首次成为物品时，其初始保质期将四舍五入至该值最接近的倍数（以小时为单位）。
@@ -276,7 +276,7 @@ config.tfc.general.oreDictPlate=矿物词典 薄板 - plate
 config.tfc.general.oreDictPlate.tooltip=向薄板物品添加 plate 的矿物词典吗？
 
 config.tfc.general.spawnProtectionEnable=启用生成保护
-config.tfc.general.spawnProtectionEnable.tooltip=Should living in a chunk block hostile mob spawning over time?
+config.tfc.general.spawnProtectionEnable.tooltip=在玩家附近区块内的敌对生物是否应当一直生成？
 
 config.tfc.general.spawnProtectionMinY=区块生成保护最低 Y 值
 config.tfc.general.spawnProtectionMinY.tooltip=区块生成保护的最低 Y 值。（在该高度以下的区域不受区块生成保护的限制）
@@ -333,13 +333,13 @@ config.tfc.world.looseRocksFrequency=石子频率
 config.tfc.world.looseRocksFrequency.tooltip=每个区块生成地表石子的尝试次数。包括地表矿石样本。
 
 config.tfc.world.rainfallSpreadFactor=降雨量分布因子
-config.tfc.world.rainfallSpreadFactor.tooltip=控制降雨量如何分布。更高的值使分布更极端。警告：可能导致世界生成非常疯狂。
+config.tfc.world.rainfallSpreadFactor.tooltip=控制降雨量如何分布。更高的值使分布更极端。警告：可能导致世界生成非常怪异。
 
 config.tfc.world.floraDiversitySpreadFactor=植物群多样性分布因子
-config.tfc.world.floraDiversitySpreadFactor.tooltip=控制植物群多样性如何分布。更高的值使分布更极端。警告：可能导致世界生成非常疯狂。
+config.tfc.world.floraDiversitySpreadFactor.tooltip=控制植物群多样性如何分布。更高的值使分布更极端。警告：可能导致世界生成非常怪异。
 
 config.tfc.world.floraDensitySpreadFactor=植物群密度分布因子
-config.tfc.world.floraDensitySpreadFactor.tooltip=控制植物群密度如何分布。更高的值使分布更极端。警告：可能导致世界生成非常疯狂。
+config.tfc.world.floraDensitySpreadFactor.tooltip=控制植物群密度如何分布。更高的值使分布更极端。警告：可能导致世界生成非常怪异。
 
 # Misc
 itemGroup.tfc.misc=群峦传说|杂项
@@ -543,7 +543,7 @@ fluid.tannin=鞣酸
 fluid.limewater=石灰水
 fluid.milk=牛奶
 fluid.milk_curdled=凝乳
-fluid.milk_vinegar=奶酪
+fluid.milk_vinegar=醋奶
 fluid.bismuth=熔融铋
 fluid.bismuth_bronze=熔融铋铜
 fluid.black_bronze=熔融黑铜
