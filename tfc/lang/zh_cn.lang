@@ -269,6 +269,9 @@ config.tfc.general.worldRegenerationSticksRocksModifier.tooltip=地表上碎石�
 config.tfc.general.foodDecayStackTime=食物腐烂叠加时间
 config.tfc.general.foodDecayStackTime.tooltip=食物初始保质期的同步值。当食物首次成为物品时，其初始保质期将四舍五入至该值最接近的倍数（以小时为单位）。
 
+config.tfc.general.foodPassiveExhaustionMultiplier=饱食度被动消耗速度
+config.tfc.general.foodPassiveExhaustionMultiplier.tooltip=饱食度被动消耗的速度。0 = 无被动消耗，更高的值 = 更快的消耗。
+
 config.tfc.general.oreDictIron=矿物词典 锻铁 - iron
 config.tfc.general.oreDictIron.tooltip=向锻铁物品添加 iron 的矿物词典吗？
 
