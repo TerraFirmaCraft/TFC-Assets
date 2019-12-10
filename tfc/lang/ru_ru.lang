@@ -12,8 +12,8 @@
 tfc.command.time.usage=/timetfc [add|query|set] [args...]
 tfc.command.time.usage_expected_first_argument=Ожидалось [add|query|set] после /timetfc
 tfc.command.time.usage_expected_second_argument_query=Ожидалось [daytime|day|gametime|playerticks|calendarticks] после /timetfc query
-tfc.command.time.usage_expected_second_argument_set=Ожидалось [day|night}monthlength|<value>] после /timetfc set
-tfc.command.time.usage_expected_second_argument_add=Ожидалось [day|night}monthlength|<value>] после /timetfc add
+tfc.command.time.usage_expected_second_argument_set=Ожидалось [day|night|monthlength] <value> после /timetfc set
+tfc.command.time.usage_expected_second_argument_add=Ожидалось [day|night|monthlength] <value> после /timetfc add
 tfc.command.time.set_month_length=Установить длину месяца равной %d дням/месяц
 
 # Gui
