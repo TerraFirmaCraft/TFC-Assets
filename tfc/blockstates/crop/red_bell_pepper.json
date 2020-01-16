@@ -46,6 +46,11 @@
           "cross": "tfc:blocks/crop/red_bell_pepper_6"
         }
       }
+      "dead": {
+        "textures": {
+          "crop": "tfc:blocks/crop/red_bell_pepper_dead"
+        }
+      }
     }
   }
 }

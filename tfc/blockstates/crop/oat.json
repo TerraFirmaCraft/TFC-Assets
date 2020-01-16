@@ -52,6 +52,11 @@
           "crop": "tfc:blocks/crop/oat_7"
         }
       }
+      "dead": {
+        "textures": {
+          "crop": "tfc:blocks/crop/oat_dead"
+        }
+      }
     }
   }
 }

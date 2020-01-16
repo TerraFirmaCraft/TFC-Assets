@@ -52,6 +52,11 @@
           "crop": "tfc:blocks/crop/barley_7"
         }
       }
+      "dead": {
+        "textures": {
+          "crop": "tfc:blocks/crop/barley_dead"
+        }
+      }
     }
   }
 }
