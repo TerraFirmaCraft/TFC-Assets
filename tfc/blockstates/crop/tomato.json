@@ -51,11 +51,6 @@
           "cross": "tfc:blocks/crop/tomato_7"
         }
       }
-      "dead": {
-        "textures": {
-          "crop": "tfc:blocks/crop/tomato_dead"
-        }
-      }
     }
   }
 }

@@ -36,11 +36,6 @@
           "cross": "tfc:blocks/crop/carrot_4"
         }
       }
-      "dead": {
-        "textures": {
-          "crop": "tfc:blocks/crop/carrot_dead"
-        }
-      }
     }
   }
 }

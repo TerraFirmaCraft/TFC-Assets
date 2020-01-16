@@ -42,11 +42,6 @@
           "crop": "tfc:blocks/crop/jute_5"
         }
       }
-      "dead": {
-        "textures": {
-          "crop": "tfc:blocks/crop/jute_dead"
-        }
-      }
     }
   }
 }
