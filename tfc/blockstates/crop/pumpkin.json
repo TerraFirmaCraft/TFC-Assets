@@ -52,11 +52,6 @@
           "crop": "tfc:blocks/crop/pumpkin_7"
         }
       }
-      "dead": {
-        "textures": {
-          "crop": "tfc:blocks/crop/pumpkin_dead"
-        }
-      }
     }
   }
 }

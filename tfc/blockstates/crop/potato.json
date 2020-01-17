@@ -46,11 +46,6 @@
           "cross": "tfc:blocks/crop/potato_6"
         }
       }
-      "dead": {
-        "textures": {
-          "crop": "tfc:blocks/crop/potato_dead"
-        }
-      }
     }
   }
 }

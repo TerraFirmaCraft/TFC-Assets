@@ -47,11 +47,6 @@
           "cross": "tfc:blocks/crop/beet_6"
         }
       }
-      "dead": {
-        "textures": {
-          "crop": "tfc:blocks/crop/beet_dead"
-        }
-      }
     }
   }
 }
