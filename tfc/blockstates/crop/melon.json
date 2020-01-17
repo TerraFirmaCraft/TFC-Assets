@@ -52,6 +52,11 @@
           "crop": "tfc:blocks/crop/melon_7"
         }
       }
+      "dead": {
+        "textures": {
+          "crop": "tfc:blocks/crop/melon_dead"
+        }
+      }
     }
   }
 }

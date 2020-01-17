@@ -41,6 +41,11 @@
           "cross": "tfc:blocks/crop/cabbage_5"
         }
       }
+      "dead": {
+        "textures": {
+          "crop": "tfc:blocks/crop/cabbage_dead"
+        }
+      }
     }
   }
 }

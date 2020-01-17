@@ -46,6 +46,11 @@
           "cross": "tfc:blocks/crop/onion_6"
         }
       }
+      "dead": {
+        "textures": {
+          "crop": "tfc:blocks/crop/onion_dead"
+        }
+      }
     }
   }
 }

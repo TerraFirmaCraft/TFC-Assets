@@ -42,6 +42,11 @@
           "crop": "tfc:blocks/crop/maize_5"
         }
       }
+      "dead": {
+        "textures": {
+          "crop": "tfc:blocks/crop/maize_dead"
+        }
+      }
     }
   }
 }

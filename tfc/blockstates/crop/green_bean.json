@@ -46,6 +46,11 @@
           "cross": "tfc:blocks/crop/green_bean_6"
         }
       }
+      "dead": {
+        "textures": {
+          "crop": "tfc:blocks/crop/green_bean_dead"
+        }
+      }
     }
   }
 }

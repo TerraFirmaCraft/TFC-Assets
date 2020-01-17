@@ -52,6 +52,11 @@
           "crop": "tfc:blocks/crop/wheat_7"
         }
       }
+      "dead": {
+        "textures": {
+          "crop": "tfc:blocks/crop/wheat_dead"
+        }
+      }
     }
   }
 }
