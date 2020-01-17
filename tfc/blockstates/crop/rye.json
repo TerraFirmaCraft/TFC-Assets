@@ -52,11 +52,6 @@
           "crop": "tfc:blocks/crop/rye_7"
         }
       }
-      "dead": {
-        "textures": {
-          "crop": "tfc:blocks/crop/rye_dead"
-        }
-      }
     }
   }
 }
